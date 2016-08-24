@@ -1,0 +1,15 @@
+[submodule "CEF"]
+	path = CEF
+	url = https://github.com/sfinktah/CEF
+[submodule "CryHTML5"]
+	path = CryHTML5
+	url = https://github.com/sfinktah/CryHTML5
+[submodule "Plugin_D3D"]
+	path = Plugin_D3D
+	url = https://github.com/sfinktah/Plugin_D3D
+[submodule "Plugin_SDK"]
+	path = Plugin_SDK
+	url = https://github.com/sfinktah/Plugin_SDK
+[submodule "AntTweakBar"]
+	path = AntTweakBar
+	url = https://github.com/sfinktah/AntTweakBar
