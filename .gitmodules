@@ -13,3 +13,6 @@
 [submodule "AntTweakBar"]
 	path = AntTweakBar
 	url = https://github.com/sfinktah/AntTweakBar
+[submodule "bare-minimum-cryengine3"]
+	path = bare-minimum-cryengine3
+	url = https://github.com/sfinktah/bare-minimum-cryengine3

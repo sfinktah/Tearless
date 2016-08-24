@@ -22,6 +22,7 @@ The other components were sourced from the following repos:
  - https://github.com/CoherentLabs/Plugin_D3D
  - https://github.com/hendrikp/CryHTML5
  - https://github.com/hendrikp/Plugin_SDK
+ - http://opensource.spotify.com/cefbuilds/cef_binary_3.2743.1448.gf5be340_windows64.tar.bz2
 
 And are forked as sub-modules to the **Master Project** as:
 
@@ -30,6 +31,7 @@ And are forked as sub-modules to the **Master Project** as:
  - https://github.com/sfinktah/Plugin_D3D
  - https://github.com/sfinktah/Plugin_SDK
  - https://github.com/sfinktah/bare-minimum-cryengine3
+ - https://github.com/sfinktah/CEF
 
 ### Installation ###
 

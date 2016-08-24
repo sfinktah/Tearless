@@ -16,10 +16,4 @@
 *.vcproj
 *~
 .backups
-/AntTweakBar
-/bare-minimum-cryengine3
-/CryHTML5
-/Plugin_D3D
-/Plugin_SDK
-/CEF
 /unused
