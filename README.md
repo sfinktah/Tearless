@@ -12,7 +12,7 @@ See also: [What should developers consider when using Chromium Embedded Framewor
 
 This project is comprised of many sub-projects, which have been stripped, mangled, and molested into taking part unwillingly.
 
-You should clone the **Master Project** with `git clone --recursive` but that is a work in progress.  Instead, clone all sub-modules into a common directory. See below.
+You should clone the **Master Project** with `git clone --recursive https://github.com/sfinktah/Tearless.git`` or clone all sub-modules into a common directory. See below or [Working with Submodules](https://github.com/blog/2104-working-with-submodules) for more details.
 
 The test executable is a stripped down example from [AntTweakBar](http://anttweakbar.sourceforge.net).
 
@@ -46,7 +46,7 @@ And are forked as sub-modules to the **Master Project** as:
 
 ### Building ###
 
-    AntTweakBar/build.bat
+    build.bat (or build.sh)
 
 *n.b., this is a work in progress, and is not guaranteed to compile, build, or run without causing catastrophic system failures.*
 
