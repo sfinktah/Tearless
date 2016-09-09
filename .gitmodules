@@ -19,3 +19,6 @@
 [submodule "rapidjson"]
 	path = rapidjson
 	url = https://github.com/sfinktah/rapidjson
+[submodule "windowskit81"]
+	path = windowskit81
+	url = https://github.com/sfinktah/windowskit81
