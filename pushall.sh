@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-PWD $PWD
-echo PWD "$PWD"
 for fn in * .; do
-    echo "Directory: $fn"
+    test -d "$fn" &&
+    echo "Directory: $fn" &&
     test -e "$fn"/.git || continue
     (
         cd "$PWD"
@@ -23,10 +22,12 @@ for fn in * .; do
             git push && 
             git branch -d temp
         }
+        git fetch
+        git merge origin master -m 'pushall'
+        git push
         # git status
         # git add u
         # git commit -m "$@"
         # git push origin master
     )
-    echo "$PWD"
 done
