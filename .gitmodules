@@ -22,3 +22,6 @@
 [submodule "windowskit81"]
 	path = windowskit81
 	url = https://github.com/sfinktah/windowskit81
+[submodule "nowide"]
+	path = nowide
+	url = https://github.com/sfinktah/nowide
