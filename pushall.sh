@@ -7,7 +7,8 @@ for fn in * .; do
         cd "$PWD"
         cd "$fn"
         git config core.autocrlf true
-        git-ad | grep 'HEAD detached' && {
+        git add -u
+        git-ad 'bulk push from tearless master project' | grep 'HEAD detached' && {
             echo fucking head detached "$PWD/$fn"
             git branch | grep '^..temp$' && {
                 git branch -d temp || {
