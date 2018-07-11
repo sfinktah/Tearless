@@ -1,3 +1,7 @@
+call "%VS140COMNTOOLS%\..\..\VC\vcvarsall.bat" x64
+rem nuget.exe restore
+rem msbuild /p:Configuration=Release /clp:Summary /nologo /m
+
 cd CEF
 @IF EXIST build GOTO JUMP1
 tools\7za.exe x -aos Release.7z
